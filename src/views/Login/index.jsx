@@ -26,7 +26,7 @@ const Login = () => {
                 </Avatar>
                 <p>Admin View</p>
               </Link>
-              {data?.map((item) => (
+              {data?.data?.map((item) => (
                 <Link
                   to={`employee-view/${item._id}`}
                   key={item._id}
