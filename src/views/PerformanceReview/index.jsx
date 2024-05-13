@@ -34,7 +34,7 @@ export default function PerformanceReview() {
     );
   }
 
-  const reviews = data.data.map((item, index) => ({
+  const reviews = data?.data?.map((item, index) => ({
     ...item,
     srNo: index + 1,
   }));

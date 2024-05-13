@@ -33,7 +33,7 @@ export default function Employee() {
     );
   }
 
-  const employee = data.data.map((item, index) => ({
+  const employee = data?.data?.map((item, index) => ({
     ...item,
     srNo: index + 1,
   }));
